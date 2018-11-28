@@ -313,8 +313,45 @@ import UIKit
 //let newCode2 = codes.flatMap{$0.lowercased()}
 //print(newCodes1)
 //print(newCode2)
-let array = [[1,2,3,4],[5,6,7,8,9]]
-let newArray = array.flatMap{$0}.map{$0*2 }.filter{$0 < 10}
-print(newArray)
 
 
+//let array = [[1,2,3,4],[5,6,7,8,9]]
+//let newArray = array.flatMap{$0}.map{$0*2 }.filter{$0 < 10}
+//print(newArray)
+
+//enum Movement: Int {
+//    case left = 0
+//    case right = 1
+//    case top = 2
+//    case bottom = 3
+//}
+//
+//// You can also map to strings
+//enum House: String {
+//    case baratheon = "Ours is the Fury"
+//    case greyjoy = "We Do Not Sow"
+//    case martell = "Unbowed, Unbent, Unbroken"
+//    case stark = "Winter is Coming"
+//    case tully = "Family, Duty, Honor"
+//    case tyrell = "Growing Strong"
+//}
+//
+//// Or to floating point (also note the fancy unicode in enum cases)
+//enum Constants: Double {
+//    case π = 3.14159
+//    case e = 2.71828
+//    case φ = 1.61803398874
+//    case λ = 1.30357
+//}
+//// Mercury = 1, Venus = 2, ... Neptune = 8
+//enum Planet: Int {
+//    case Mercury = 1, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune
+//}
+//
+//// North = "North", ... West = "West"
+//enum CompassPoint: String {
+//    case North, South, East, West
+//}
+
+let forEachNumbers = [1, 2, 3, 4, 5]
+forEachNumbers.forEach { print($0) } 
